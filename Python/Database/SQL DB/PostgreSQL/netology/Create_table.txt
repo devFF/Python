@@ -1,0 +1,12 @@
+"create table delivery(
+	delivery_id serial primary key, -- создали колонку идентификатора доставки и указали первичный ключ, однозначно определяющий запись
+	address_id int references address(address_id) not null, -- создали идентификатор адреса, ссылающийся на стобик address_id в табл. address. Пустых значений быть не должно.
+	delivery_date date not null, -- дата доставки
+	time_range text[] not null, -- временной диапазон доставки, два значения с и по, используем массив, содержащий символьные значения
+	staff_id int references staff(staff_id) not null,-- идентификатор сотрудника, который совершает доставку. Указываем внешний ключ, который ссылается на столбик staff_id в табл staff
+	status del_status not null default 'в обработке', -- статус с дефолтным значением в обработке. del_status -- самостоятельно созданный тип данных в домене, который может иметь заранее заданные значения, с. типы данных
+	last_update timestamp, -- дата последнего обновления 
+	create_date timestamp default now(), -- дата и время создания новой записи по доставке
+	deleted boolean not null default false -- флаг, помечающий запись на удаление. 
+	)
+"
