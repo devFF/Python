@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters  # Спос
 from head_hunter import launch_parser
 
 # token - секретный ключ к боту, получить у @BotFather
-app = ApplicationBuilder().token('5651820426:AAEtEE_ZhpmW9l-OTXc0VTRHSF5qnICnjO8').build()
+app = ApplicationBuilder().token('').build()
 
 
 # upd - новая информация
