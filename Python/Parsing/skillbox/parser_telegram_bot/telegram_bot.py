@@ -3,7 +3,8 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters  # Спос
 from head_hunter import launch_parser
 
 # token - секретный ключ к боту, получить у @BotFather
-app = ApplicationBuilder().token('').build()
+TOKEN = input('> Введите токен Вашего бота:')
+app = ApplicationBuilder().token(TOKEN).build()
 
 
 # upd - новая информация
@@ -19,6 +20,8 @@ async def text_reply(upd: Update, ctx):
     count = launch_parser(title=user_text)
     answer = f'Найдено {count} вакансий'
     await upd.message.reply_text(answer)
+
+# Загрузка нейронки и словаря
 
 
 # обработчик сообщений
