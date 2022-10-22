@@ -1,2 +1,0 @@
-# Projects
-Skill demonstration examples
