@@ -73,9 +73,13 @@ Sample Output: [["eat", "tea","ate"],["tan","nat"],["bat"]]
 Выведите гистограмму как в примере (коды символов отсортированы).
 S = Hello, world!
 Вывод программы:
+
       #
+
       ##
+
 ##########
+
  !,Hdelorw
 
 [**17.Max_online_on_site.py**](https://github.com/devFF/FindJob/blob/main/Yandex_tasks/Max_online_on_site.py): 
