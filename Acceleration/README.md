@@ -8,6 +8,8 @@ GIL (Global Interpreter Lock) - это механизм, который блок
 
 [**2.Multiprocessing**](https://github.com/devFF/FindJob/tree/main/Acceleration/Multiprocessing) - многопроцессорные вычисления
 
+[**3.Asyncio**](https://github.com/devFF/FindJob/tree/main/Acceleration/Multiprocessing) - асинхронное программирование
+
 Отдельно стоит обратить внимание на библиотеку [Taichi](https://github.com/devFF/FindJob/tree/main/Acceleration/Taichi), позволяющую ускорить выполнение кода Python на 1-2 порядка!
 
 
