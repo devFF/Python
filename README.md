@@ -11,14 +11,22 @@
 
 **5. General_theory** - Важная теоритическая информация о Python.
 
-**6. Machine_learning** - Теория и примеры работы с ML
+**6. Machine_learning** - Теория и примеры работы с ML.
 
-**7. Microservices**
+**7. Microservices** - Работа с библиотеками FastAPI, Flask и Tornado.
 
+**8. Parsing** - Парсинг сайтов, с использованием библиотек request, selenium и BeautifulSoup.
 
+**9. PostgreSQL** - Пример работы с релятивной базой данных, используя PostgreSQL.
 
+**10. Random_exaples** - Примеры проектов.
 
-## PostgreSQL
-Пример работы с релятивными базами данных PostgreSQL и  NoSQL базами да
+**11. Socket** - Создание клиент-серверных приложений.
+
+**12. Testing** - Тестирование кода.
+
+**13. Tools** - Заметки для работы с софтом: docker, git, jira, confluence, db.
+
+**14. Yandex_tasks** - Решенные задачи на алгоритмы от Яндекса.
 
 
