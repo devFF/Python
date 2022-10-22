@@ -28,6 +28,6 @@
 
 [**13. Tools**](https://github.com/devFF/FindJob/tree/main/Tools) - Заметки для работы с софтом: docker, git, jira, confluence, db.
 
-[**14. Yandex_tasks**](https://github.com/devFF/FindJob/tree/main/Yandex_tasks) - Решенные задачи на алгоритмы от Яндекса.
+[**14. Yandex_tasks**](https://github.com/devFF/FindJob/tree/main/Yandex_tasks) - Решенные задачи на алгоритмы от Яндекса: бинарный поиск, двойной указатель, найти пару чисел по условию, префиксные суммы, хешфункция, сортировка событий, RLE.
 
 
