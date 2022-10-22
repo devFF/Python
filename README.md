@@ -30,4 +30,6 @@
 
 [**14. Yandex_tasks**](https://github.com/devFF/FindJob/tree/main/Yandex_tasks) - Решенные задачи на алгоритмы от Яндекса: бинарный поиск, двойной указатель, найти пару чисел по условию, префиксные суммы, хешфункция, сортировка событий, RLE.
 
+[**15. Leetcode**](https://github.com/devFF/FindJob/tree/main/Leetcode) - Решенные задачи с сайта leetcode.
+
 
