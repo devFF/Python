@@ -1,6 +1,6 @@
 # Projects
 
-[Weather_API_GUI](https://github.com/devFF/FindJob/tree/main/Random_examples/Weather_API_GUI) - 
+[Weather_API_GUI](https://github.com/devFF/FindJob/tree/main/Projects/Weather_API_GUI) - 
 Прогноз погоды с графическим интерфейсом. Проект реализован в рамках ознакомления работы с библиотекой Tkinter, 
 но в результате было реализовано довольно много функций: работа с API, парсинг сайта, визуализация данных, параллельная загрузка файлов.
 

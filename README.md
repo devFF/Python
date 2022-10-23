@@ -20,7 +20,7 @@
 
 [**9. PostgreSQL**](https://github.com/devFF/FindJob/tree/main/PostgreSQL) - Пример работы с релятивной базой данных, используя PostgreSQL.
 
-[**10. Random_exaples**](https://github.com/devFF/FindJob/tree/main/Random_examples) - Примеры проектов.
+[**10. Projects**](https://github.com/devFF/FindJob/tree/main/Projects) - Примеры проектов.
 
 [**11. Socket**](https://github.com/devFF/FindJob/tree/main/Socket) - Создание клиент-серверных приложений.
 
