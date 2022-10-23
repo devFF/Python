@@ -4,7 +4,7 @@ GIL (Global Interpreter Lock) - это механизм, который блок
 
 Для параллелизации вычислений в Python могут быть использованы библиотеки:
 
-[**1.Thearding**](https://github.com/devFF/FindJob/tree/main/Acceleration/Thearding) - многопоточные вычисления
+[**1.Threading**](https://github.com/devFF/FindJob/tree/main/Acceleration/Threading) - многопоточные вычисления
 
 [**2.Multiprocessing**](https://github.com/devFF/FindJob/tree/main/Acceleration/Multiprocessing) - многопроцессорные вычисления
 
