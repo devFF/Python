@@ -6,8 +6,9 @@
 многопоточности будет работать медленнее, чем последовательный. Но если у нас есть операции ввода-вывода информации, то будет заметна разница в скорости выполнении кода. 
 Но в задачах *I/O bound* (input/output) прирост производительности при использование потоков будет заметен.
 
-[**Создание пула потоков:**](https://github.com/devFF/FindJob/blob/main/Acceleration/Threading/thread_pool_example.py) Для создания ограниченного пула потоков удобно использовать *ThreadPoolExecutor* из модуля *concurrent.futures*.
-Метод *submit* создает объект класса concurrent.При помощи удобного метода as_completed из модуля concurrent.futures мы можем дождаться 
+[**Создание пула потоков:**](https://github.com/devFF/FindJob/blob/main/Acceleration/Threading/thread_pool_example.py) Для создания ограниченного пула потоков 
+удобно использовать *ThreadPoolExecutor* из модуля *concurrent.futures*.
+При помощи удобного метода *as_completed* из модуля *concurrent.futures* мы можем дождаться 
 завершения всех объектов и получить результаты по мере завершения всех созданных нами потоков:
 
 
