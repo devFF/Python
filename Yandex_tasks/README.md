@@ -127,3 +127,6 @@ A4B3C2XYZD4E3F3A6B28
 
 [**25.Sequence_sum.py**](https://github.com/devFF/FindJob/blob/main/Yandex_tasks/Sequence_sum.py): 
 Вывести сумму последовательности чисел в строке
+
+[**26.Sub_ranges.py**](https://github.com/devFF/FindJob/blob/main/Yandex_tasks/Sub_ranges.py): 
+Дан список интов, повторяющихся элементов в списке нет. Нужно преобразовать это множество в строку, сворачивая соседние по числовому ряду числа в диапазоны.
