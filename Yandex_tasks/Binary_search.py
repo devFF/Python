@@ -26,3 +26,4 @@ if __name__ == '__main__':
     print(bin_search(seq, 800))
     print(bin_search(seq, 799))
     print(bin_search(seq, 650_000))
+    print(bin_search(seq=(1, 2, 3, 5, 6, 7, 8, 8, 10), val=4))
