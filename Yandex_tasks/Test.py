@@ -1,17 +1,20 @@
-def bs(seq, val):
-    l = 0
-    r = len(seq)
-    m = (l + r) // 2
-    while val != seq[m] and l <= r:
-        if val < seq[m]:
-            r = m - 1
+def create_pref_sum(seq):
+    pref_list = [0]
+    for i in range(1,len(seq)+1):
+        if seq[i-1] == 0:
+            pref_list.append(pref_list[i-1]+1)
         else:
-            l = m + 1
-        m = (l + r) // 2
-    if l > r:
-        print('Not found')
-    else:
-        print('Found')
+            pref_list.append(pref_list[i-1])
+    return pref_list
+    
+class FindZeroesNumber:
+    def __init__(self, seq):
+        self.pref_list = create_pref_sum(seq)
+        
+    def calc_zeroes(self,L,R):
+        return self.pref_list[R] - self.pref_list[L]
+        
 
-
-bs(seq=(0, 1, 2, 3, 5, 6, 7, 8, 9, 10), val=-1)
+if __name__ == '__main__':
+    obj = FindZeroesNumber(seq=[0,1,2,3,0,0,0,4,0,3,2,0,1,0,0])
+    print(obj.calc_zeroes(0,15))
