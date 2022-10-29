@@ -1,0 +1,14 @@
+# Курс SQL Basic от нетология
+
+[1. **Task1.sql**](https://github.com/devFF/FindJob/blob/main/PostgreSQL/netology/Task1.sql) - 
+создание таблиц, указание внешнего ключа, изменение и вывод данных.
+
+[2. **Task2Join.sql**](https://github.com/devFF/FindJob/blob/main/PostgreSQL/netology/Task2Join.sql) - 
+присоединение таблиц, алиасы. 
+
+- Задача: Вывести идентификатор заказа и название города (данные в разных таблицах)
+
+- Задача: Получить все возможные комбинации имен таких, что имя А не было равно имени А
+
+
+
