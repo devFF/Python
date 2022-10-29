@@ -8,7 +8,7 @@
 
 [**3. Certificates and resume**](https://github.com/devFF/FindJob/tree/main/Certificates%20and%20resume) - Сертификаты за онлайн курсы и резюме.
 
-[**4. Data_processing**](https://github.com/devFF/FindJob/tree/main/Data_processing) - Работа с большими объемами данных: pandas и numpy.
+[**4. Data_processing**](https://github.com/devFF/FindJob/tree/main/Data_processing) - Работа с данными: pandas и numpy.
 
 [**5. General_theory**](https://github.com/devFF/FindJob/tree/main/General_theory) - Важная теоритическая информация о Python.
 
