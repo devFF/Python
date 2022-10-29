@@ -9,5 +9,7 @@
 или для отдельной колонки [**.dtype**](https://github.com/devFF/FindJob/blob/47a8eab8304c3277869630808ad2213416af0606/Data_processing/Pandas/data_types_and_missing_values.py#L13). 
 Преобразование типа данных методом [**.astype('int64')**](https://github.com/devFF/FindJob/blob/47a8eab8304c3277869630808ad2213416af0606/Data_processing/Pandas/data_types_and_missing_values.py#L14).
 Поиск пропущенных значений в колонке (column) при помощи метода [**.isnull(column)**](https://github.com/devFF/FindJob/blob/47a8eab8304c3277869630808ad2213416af0606/Data_processing/Pandas/data_types_and_missing_values.py#L18).
-Замена пропущенных значений на выбранное [**.fillna('new_value')**](https://github.com/devFF/FindJob/blob/47a8eab8304c3277869630808ad2213416af0606/Data_processing/Pandas/data_types_and_missing_values.py#L19).
+Замена пропущенных значений на выбранное [**.fillna('new_value')**](https://github.com/devFF/FindJob/blob/47a8eab8304c3277869630808ad2213416af0606/Data_processing/Pandas/data_types_and_missing_values.py#L19). \n
+Замена не пропущенных значений **.replace('was','became')**.
+
 
