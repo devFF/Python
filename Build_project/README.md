@@ -1,5 +1,6 @@
 # Building projects into executable files for Windows and Linux
-# 1) Install pywin32 and pyinstaller:
+
+## 1. Install pywin32 and pyinstaller:
 ```
 pip install pypiwin32  # FOR WINDOWS ONLY !!!
 ```
@@ -7,17 +8,18 @@ pip install pypiwin32  # FOR WINDOWS ONLY !!!
 pip install pyinstaller
 ```
 
-# 2) Checking correctness of the installation
+## 2. Checking correctness of the installation
 ```
 pyinstaller --version
 ```
 
-# 3) Syntax:
+## 3. Syntax:
 ```
 pyinstaller [options] script [script ...] | specfile
 ```
 
-# 4) Useful options:
+## 4. Useful options:
+
 --onefile # build project in one file
 
 --windowed # show console 
@@ -28,7 +30,7 @@ pyinstaller [options] script [script ...] | specfile
 
 --add-data "temp\file_name1.txt;file_name2.png" # add extra files in executable file
 
-# 5) Example:
+## 5. Example:
 ```
 pyinstaller --onefile --noconsole  GUI_calc.py
 ```
