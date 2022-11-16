@@ -1,2 +1,3 @@
-# Projects
-Skill demonstration examples
+# Machine learning
+
+Раздел с теорией и примерами машинного обучения.
