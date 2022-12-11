@@ -7,3 +7,5 @@
 
 
 Обратить внимание на [HEROKU](https://www.heroku.com/)
+
+OpenShift или PythonAnywhere

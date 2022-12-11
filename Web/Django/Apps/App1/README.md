@@ -65,3 +65,13 @@ urls.py - объявление URL проекта.
 
 3. Функция представления обрабатывает запрос и возвращает
 HTTP-отклик.
+
+15) Изменяем файл superlists/superlists/urls.py
+
+16) Конец главы 3 - Полезные команды и понятия
+Выполнение сервера разработки Django:
+ python manage.py runserver
+Выполнение функциональных тестов:
+ python functional_tests.py
+Выполнение модульных тестов:
+ python manage.py test
