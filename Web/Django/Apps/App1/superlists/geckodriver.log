@@ -1,0 +1,23 @@
+1670768119841	geckodriver	INFO	Listening on 127.0.0.1:52673
+1670768122924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52674" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\igori\\AppData\\Local\\Temp\\rust_mozprofileFK6XZr"
+1670768123204	Marionette	INFO	Marionette enabled
+1670768123209	Marionette	INFO	Listening on port 52683
+Read port: 52683
+WebDriver BiDi listening on ws://127.0.0.1:52674
+1670768123307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\igori\\AppData\\Local\\Temp\\rust_mozprofileFK6XZr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52674/devtools/browser/a32aaea3-86e9-437a-96b1-4d280b636d33
+1670768137215	Marionette	INFO	Stopped listening on port 52683
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670768781172	geckodriver	INFO	Listening on 127.0.0.1:52838
+1670768784256	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\igori\\AppData\\Local\\Temp\\rust_mozprofileUAl5yG"
+1670768784540	Marionette	INFO	Marionette enabled
+1670768784546	Marionette	INFO	Listening on port 52848
+Read port: 52848
+WebDriver BiDi listening on ws://127.0.0.1:52839
+1670768784633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\igori\\AppData\\Local\\Temp\\rust_mozprofileUAl5yG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52839/devtools/browser/93b1e0b5-1726-4ea6-aa4e-d6973af41c53
+1670768786220	Marionette	INFO	Stopped listening on port 52848
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
