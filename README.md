@@ -14,7 +14,7 @@
 
 [**6. Machine_learning**](https://github.com/devFF/FindJob/tree/main/Machine_learning) - Теория и примеры работы с ML.
 
-[**7. Microservices**](https://github.com/devFF/FindJob/tree/main/Microservices) - Работа с библиотеками FastAPI, Flask и Tornado.
+[**7. Web**](https://github.com/devFF/FindJob/tree/main/Web) - Работа с библиотеками Django, FastAPI, Flask и Tornado.
 
 [**8. Parsing**](https://github.com/devFF/FindJob/tree/main/Parsing) - Парсинг сайтов, с использованием библиотек request, selenium и BeautifulSoup.
 
