@@ -81,7 +81,6 @@ def device_classificator(df_merged):
     return df_merged
 
 
-
 def select_new_devices(devices_in_base_csv, new_devices_csv):
     """
     Метод создает csv-файл с данными о сетевых устройствах, которых еще нет в базе PRTG. \n
@@ -111,6 +110,7 @@ def select_new_devices(devices_in_base_csv, new_devices_csv):
     print('Total found {}:'.format(len(df_merged['type'])))
     print(df_merged['type'].value_counts())
 
+
 if __name__ == '__main__':
     get_devices_from_base(host='your_ip', login='your_login', password='your_password',
                           printer_group_id=56,
@@ -120,4 +120,4 @@ if __name__ == '__main__':
     find_network_protocol_devices(open_csv='all_found_devices.csv',
                                   save_csv='all_found_network_protocol_devices.csv')
     select_new_devices(devices_in_base_csv='devices_in_base.csv',
-                  new_devices_csv='all_found_network_protocol_devices.csv')
+                       new_devices_csv='all_found_network_protocol_devices.csv')
