@@ -3,3 +3,5 @@ logs/
 *.pyc
 General_theory/README.md.bak
 *.bak
+Web/Django/Apps/App1/superlists/db.sqlite3
+Web/Django/Apps/App1/geckodriver.log
