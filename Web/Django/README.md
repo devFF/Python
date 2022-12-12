@@ -20,4 +20,8 @@
 
 2. Установить пакет: python -m pip install selenium
 
+Полезные ссылки:
+
+1. Программирование серверной части от Mozilla: https://developer.mozilla.org/ru/docs/Learn/Server-side/Django/Introduction 
+
 
