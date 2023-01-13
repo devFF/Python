@@ -14,6 +14,10 @@
 Используется для быстрого переноса задач и отчетов деятельности отдела на сайт института.
 
 
+[**4. Projector_control**](https://github.com/devFF/FindJob/tree/main/Projects/Projector_control) - 
+Программа с интерфейсом для управление проектором. Реализация автоматического автозапуска и сохранение настроек программы. Реализация максимального сжатия exe-файла.
+
+
 ## TODO:
 Check this [resource](https://www.theinsaneapp.com/2021/06/list-of-python-projects-with-source-code-and-tutorials.html)
 70+ Python Projects For Beginners, Intermediate And Experienced Developers
