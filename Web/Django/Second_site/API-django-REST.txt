@@ -1,0 +1,46 @@
+1) pip install djangorestframework
+
+2) В папке приложения создадим serializers.py и напишем простой сериализатор для модели:
+from rest_framework.serializers import ModelSerializer
+
+from store.models import Book
+
+
+class BookSerializer(ModelSerializer):
+    class Meta:
+        model = Book
+        fields = '__all__'
+
+3) В views.py:
+from rest_framework.viewsets import ModelViewSet
+
+from store.models import Book
+from store.serializers import BooksSerializer
+
+
+class BookViewSet(ModelViewSet):
+    queryset = Book.objects.all()
+    serializer_class = BooksSerializer
+
+4) В urls.py: 
+
+from rest_framework.routers import SimpleRouter
+
+from store.views import BookViewSet
+
+router = SimpleRouter()
+
+router.register(r'book', BookViewSet)
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]
+
+urlpatterns += router.urls
+
+5) В браузере проверим работу API: http://127.0.0.1:8000/book/?format=json
+
+6) Добавим киниги:
+python ./manage.py shell
+from store.models import Book
+Book.objects.create(name='For Whom The Bell Tolls', price='1000.00')

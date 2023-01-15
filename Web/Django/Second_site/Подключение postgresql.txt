@@ -1,0 +1,31 @@
+--- Настройка postgresql ---
+
+Установить postgresql
+
+Установить драйвер в терминале pip install psycopg2
+
+Создать БД через pgAdmin4
+
+Создать юззера через gpAdmin4 в вкладке Login/Group Roles
+
+Затем нажатб на БД правым кликом и выбрать свойства: перейти в привелегии и добавить нового юзера
+
+В основных настройках БД выбрать владельца
+
+--- Настройка Django ---
+
+В settings.py изменить переменную DATABASES на: 
+'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '',
+
+В терминале: python ./manage.py makemigrations
+python ./manage.py migrate
+
+--- Проверка в pgAdmin4 --- 
+Зайти в БД -> Schemas -> public -> Tables здесь увидим таблицы джанго
+После python ./manage.py createsupersuer увидим пользователя в вкладке БД Schemas public Tables auth_user right click view all rows
+
