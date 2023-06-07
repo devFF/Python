@@ -1,2 +1,1 @@
-# Projects
-Skill demonstration examples
+# Тестирование
