@@ -28,4 +28,15 @@
 
 [**13. Leetcode**](Leetcode) - Решенные задачи с сайта leetcode.
 
+# TODO
 
+## 1. Закончить курс ООП и паттерны проектирования в Python
+[Ссылка на специализацию](https://www.coursera.org/specializations/programming-in-python)
+
+[Ссылка на курс](https://www.coursera.org/learn/oop-patterns-python/home/week/1)
+
+## 2. Закончить курс Создание Web-сервисов Python
+[Ссылка на курс](https://www.coursera.org/learn/oop-patterns-python/home/week/1)
+
+## 3. Закончить курс Python для анализа данных 
+[Ссылка на курс](https://www.coursera.org/learn/python-for-data-science/home/week/1)
